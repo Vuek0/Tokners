@@ -1,0 +1,173 @@
+.menu{
+    z-index: 2;
+}
+
+.header__burger{
+    z-index: 2;
+}
+
+.tokenomics{
+    margin-top: 100px;
+}
+.tokenomics__container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h2{
+        align-self: flex-start;
+    }
+}
+
+.tokenomics__amount{
+    width: 100%;
+    display: flex;  
+    justify-content: space-between;
+
+    div:nth-child(1){
+        margin-top: 180px;
+        p:nth-child(2){
+            color: #2278D4;
+        }
+    }
+    div:nth-child(2){
+        p:nth-child(2){
+            font-size: 67px;
+            color: #FFD100;
+        }
+    }
+    div:nth-child(3){
+        margin-top: 280px;
+        p:nth-child(2){
+            color: #E20613;
+        }
+    }
+}
+
+.tokenomics__amount__digit{
+    p{
+        font-size: 15px;
+        font-weight: 700;
+    }
+    p:nth-child(2){
+        font-size: 36px;
+    }
+    p:nth-child(3){
+        float: right;
+    }
+}
+
+img[alt="round-banner"]{
+    position: absolute;
+    top: 200px;
+}
+
+.tokenomics__cards{
+    justify-content: center;
+    gap: 15px;
+    margin-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tokenomics__card{
+    width: 184px;
+    height: 131px;
+    background: #171B29;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    .marker{
+        background: #22A75D;
+        width: 16px;
+        height: 16px;
+        filter: drop-shadow(0px 11.25px 18.75px rgba(34, 167, 93, 0.25));
+    }
+}
+.tokenomics__card__container{
+    max-width: 147px;
+    height: 89px;
+    display: flex;
+}
+
+.tokenomics__card__content{
+
+    p:nth-child(1){
+        color: #22A75D;
+        font-weight: 700;
+        font-size: 10px;
+    }
+    
+    p:nth-child(2){
+        margin-top: 18px;
+        font-size: 15px;
+        font-weight: 300;
+    }
+
+    p:nth-child(3){
+        font-weight: 300;
+    }
+}
+
+.tokens{
+
+    position: relative;
+}
+.curse__image__second{
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+.tokens__card{
+    background: #fff;
+    width: 781px;
+    height: 352px;
+    border-radius: 19px;
+}
+
+.tokens__container{
+    display: flex;
+    flex-direction: column;
+    .tokens__card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        *{
+            color: #0F1320;
+        }
+        p:nth-child(3){
+            display: flex;
+            justify-content: flex-end;
+        }
+    }
+    .tokens__card:nth-child(1){
+        align-self: flex-end;
+        margin: 140px 0px 30px 0px;
+        p:nth-child(2){
+            color: #22A75D;
+        }
+    }
+    .tokens__card:nth-child(2){
+        p:nth-child(2){
+            color: #FFD100;
+        }
+        p:nth-child(4){
+            color: #000;
+            opacity: 0.6;
+            margin-top: 15px;
+        }
+    }
+}
+.tokens__card__container{
+    width: 465px;
+    height: 211px;
+
+    p:nth-child(2){
+        font-size: 72px;
+        font-weight: 700;
+    }
+}
